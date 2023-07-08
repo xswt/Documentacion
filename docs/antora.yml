@@ -1,0 +1,6 @@
+name: main-documentation
+title: Antora Home Doc
+version: 1.00
+# prerelease: nada
+nav:
+- modules/ROOT/nav.adoc
