@@ -1,5 +1,5 @@
 site:
-  title: Antora Demo Site
+  title: Documentación teórica
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://antora.gitlab.io/demo/docs-site
   start_page: main-documentation::index.adoc
@@ -19,5 +19,7 @@ asciidoc:
     page-pagination: ''
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./prueba2.zip
     snapshot: true
+runtime:
+  fetch: true
